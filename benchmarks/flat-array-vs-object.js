@@ -9,7 +9,14 @@ var setup = function() {
 
 require('do-you-even-bench')([
   {
-    name: 'flat array',
+    name: 'flat array same type',
+    setup: setup,
+    fn: function() {
+      arr.push(item0, item0, item0, item0, item0);
+    },
+  },
+  {
+    name: 'flat array different types',
     setup: setup,
     fn: function() {
       arr.push(item0, item1, item2, item3, item4);
