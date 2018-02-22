@@ -1,0 +1,17 @@
+{
+  "name": "perf-bench",
+  "version": "1.0.0",
+  "description": "Performance benchmarks for JS snippets",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scalvert/perf-bench.git"
+  },
+  "author": "scalvert",
+  "homepage": "https://github.com/scalvert/perf-bench#readme",
+  "devDependencies": {
+    "do-you-even-bench": "^1.0.5"
+  }
+}
